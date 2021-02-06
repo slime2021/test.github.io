@@ -1,0 +1,70 @@
+*{margin: 0;padding: 0; width: auto}
+body{background-color: #f3f0eb;}
+li{list-style: none;}
+.headerwrap{width:100%;min-width: 73.75rem;position: fixed;top: 0px;z-index: 999;}
+.headertop{width: 100%;min-width: 73.75rem;height: 4.375rem;background-color: #3c3c3c;}
+.content{width:73.75rem;margin:0 auto;height:4.6875rem}
+.search{width: 17.8125rem;padding: 15PX 0;margin: 0 auto;}
+.searchwrap{width: 17.8125rem;height: 3.125rem;border-radius: 1.25rem;background-color: white;
+			 display: flex;
+			 flex-direction: row;
+
+}
+.searchkeyword{width: 11.875rem;height: 1.25rem;border:0 solid ;padding: 0.625rem;box-sizing: content-box;margin-left: 30px;margin-top: 0.3125rem;}
+.searchsubmit{
+width: 50px;
+height:50px;
+border-radius:0 1.25rem 1.25rem 0;
+background-color: indigo;float: right;
+padding-top: 1.25rem;
+margin-left: 1.25rem;background: url(d.jpg) no-repeat -165px -85px ;
+}
+.menu{width: 100%;height: 3.75rem;min-width: 1270px;background-color: white;}
+.menuwrap{width: 1180px;margin: 0 auto;}
+.menulist>li{float: left;list-style: none;margin: 15px 3px;font:18px/30px;padding-left: 120PX;}
+.menulist>li>a{text-decoration: none;color:black;font-size: 30px;font-weight: bold;}
+.menulist>li>a:hover{color: crimson;}
+.clear::after{content:"";display: block;height: 0;clear: both;}
+.gift-wrap{width: 900PX;margin: 0 auto;}
+.gift-ad{width: 100%;margin: 5px -170px;padding-top: 130px;}
+.gift-content{width: 1280px;background-color: wheat;margin: 0 -170PX;}
+.gift-location{height: 34px;line-height: 34px;font-size: 20px;}
+.gift-location>a{color: black;text-decoration: none;}
+.gift-location>a:hover{color: crimson;text-decoration: underline;}
+.gift-filter{font-size: 17px;color: #000000;}
+.gift-filter-count{border-bottom: 1px solid black;}
+.s1{font-size: 30PX;height: 60PX;line-height: 60PX;display: inline-block;border-bottom: 2PX solid red;border-left: 2PX solid red;border-radius:0 0 0 10PX;margin-right: 20PX;}
+.s2{color: #DC143C;font-size: 25px;}
+.s3{color: #DC143C;font-size: 25px;}
+.gift-filter-category{margin-top: 13px;}
+.gift-filter-category li{list-style: none;border-bottom: 1px dashed #CCCCCC;display:flex;flex-direction: row;padding: 0 50px;}
+.category-wrap{margin-left: 15PX;}
+.category-wrap a{display: inline-block;line-height: 24px;border: 1px solid #8d8d8d;padding:0 15px;margin-right: 20px;text-decoration: none;color: #000000;}
+.focus>a{background-color: #000000;color: white;}
+.category-wrap a:hover{background-color: #DC143C;color: white;}
+.chanel{margin-top: 22px;}
+.chanel-list{border: 1px solid #e5e5e5;height: 40px;font-size: 20px;}
+
+.top{float: left;border-right: 1px solid#E5E5E5;}
+.update{float: left;border-right: 1px solid#E5E5E5;}
+.count{float: right;border-left: 1px solid#E5E5E5; }
+.chanel-list li>a{ padding: 0px 15px; height: 40px;line-height: 40px;border: 1px solid #8d8d8d;text-decoration: none;color: black;display: inline-block;}
+.chanel-list li>a:hover{background-color: red;color: white;}
+.game-list_wrap{font-size: 14px;color: #8D8D8D;}
+.game-list{display: flex;flex-direction: row;flex-wrap: wrap; width: 1500px; padding: 0px  50px;   }
+.game{width: 400PX;display: flex;flex-direction: row;  padding:35px 50px; margin-right: 190px;}
+.game-img img{width: 120px;height: 150px;border-radius: 15px;}
+.game-info{margin-left: 20px;}
+.game-name{font-size: 18px;font-weight: bold;color: #000000;}
+.game-info p:first-child{color: #000000;}
+.game-info span{color: #000000;}
+.game-info p{line-height: 25px;}
+.game-info p:last-child a{display: inline-block; width: 100px;height: 28px;;font-size: 16px;color: #8D8D8D;text-decoration: none;text-indent: 28px;border: 1px solid #8D8D8D ;}
+.sd{background: url(QQ图片20210201210756.png) no-repeat  3PX  ;}
+.sj{background: url(QQ图片20210201211109.png) no-repeat 3PX;}
+.pager-list{padding: 20px 0;display: flex;flex-direction: row;justify-content: center;}
+.pager-list a{display: inline-block; height: 30px;padding: 0 15px;line-height: 30px;text-decoration: none;border: 1px solid #8D8D8D;color: #000000;margin-right: 3px;}
+.pager-list a:hover{background-color: #DC143C;color: white;}
+.dbjs{background-color:#3c3c3c ;height: 100px;display: flex;flex-direction: row;justify-content: center;flex-wrap: wrap;}
+.dbjs a{display:inline-block;padding: 5px 10px;color: #E5E5E5;text-decoration: none;font-size: 15px;position:relative;left: 140px;}
+.dbjs2{ position:relative;right: 120px;top:50px;font-size: 9px;}
